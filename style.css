@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+  
+}
+
+
+input, label{
+    display: block;
+    width: 100%;
+    
+}
+
+input:focus, label:focus{
+
+    outline: none;
+}
+
+a{
+    color:rgb(255, 30, 0);
+}
+
+
+body{
+    padding-top: 5vh;
+}
+
+.container{
+
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 3px 3px rgba(0, 128, 128, 0.164);
+    
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.full-box{
+    flex: 1 1 100%;
+    position: relative;
+}
+
+
+
+.half-box{
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing{
+    margin-right: 2.5%;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+border-bottom:2px solid #5cb85c;
+padding: 10px;
+margin-bottom: 40px;
+background: #f1f1f1;
+}
+
+
+
+input:hover{
+background: #fdfdfd;
+border-radius: 5px;
+
+
+}
+input:focus{
+    border-color: green;
+}
+
+input[type="submit"]{
+    background-color: green;
+    color: #f1f1f1;
+    border:none;
+    border-radius: 5px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#agreement{
+    margin-right: 5px;
+}
+
+
+#agreement, #agreement-label{
+    display: inline-block;
+    width: auto;
+}
+
+
+.error-validation{
+    color:red;
+    position: absolute;
+    top: 57px;
+}
+
+.template{
+    display:none;
+}
